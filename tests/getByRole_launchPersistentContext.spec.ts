@@ -2,7 +2,7 @@ import { test, expect, BrowserContext, chromium, Page } from "@playwright/test";
 
 test("getByRole", async () => {
   const browser: BrowserContext = await chromium.launchPersistentContext("./session", {
-    headless: false,
+    headless: true,
     channel: "chrome",
   });
   // const page:Page = await browser.newPage();

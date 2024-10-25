@@ -2,7 +2,7 @@ import { test, chromium, BrowserContext, Page } from '@playwright/test';
 
 
 test("Flipkart - search and add a product to the cart", async () => {
-    const browser = await chromium.launch({ headless: false });
+    const browser = await chromium.launch({ headless: true });
     const context: BrowserContext = await browser.newContext();
     const page: Page = await context.newPage();
 

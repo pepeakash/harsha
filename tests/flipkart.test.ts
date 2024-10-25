@@ -4,7 +4,7 @@ import ResultPage from "../app.flipkart/pages/resultPage";
 import SearchResult from "../app.flipkart/pages/searchResult";
 
 test("Flipkart - search and add a product to the cart", async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ headless: true });
   const context: BrowserContext = await browser.newContext();
   const page: Page = await context.newPage();
 

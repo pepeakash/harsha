@@ -3,7 +3,7 @@ import { test, expect, chromium, BrowserContext, Page } from "@playwright/test";
 test("@Webst Client App login", async () => {
 
   const browser: BrowserContext = await chromium.launchPersistentContext("", {
-    headless: false,
+    headless: true,
     channel: "chrome",
   });
   const page: Page = await browser.newPage();

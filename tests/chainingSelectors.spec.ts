@@ -2,7 +2,7 @@ import { test, BrowserContext, Page, chromium } from "@playwright/test";
 
 test("chainingSelectors", async () => {
   const browser: BrowserContext = await chromium.launchPersistentContext("", {
-    headless: false,
+    headless: true,
     channel: "chrome",
   });
   const page: Page = await browser.newPage();
@@ -24,7 +24,7 @@ test("chaininglocators", async () => {
   // This means when you come back, you don’t have to log in again or reset your settings. 
   // It's like leaving a note for yourself so you can pick up right where you left off.
   const browser: BrowserContext = await chromium.launchPersistentContext("", {
-    headless: false,
+    headless: true,
     channel: "chrome",
   });
   const page: Page = await browser.newPage();

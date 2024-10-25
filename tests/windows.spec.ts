@@ -13,7 +13,7 @@ test.describe("Learn how to handle Input fileds", async () => {
   let page: Page;
 
   test.beforeAll(async () => {
-    browser = await chromium.launch({ headless: false });
+    browser = await chromium.launch({ headless: true });
     browserContext = await browser.newContext();
     page = await browserContext.newPage();
   });

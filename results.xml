@@ -1,29 +1,6 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="1" errors="0" time="23.432299">
-<testsuite name="annotations.spec.ts" timestamp="2024-10-06T14:22:20.424Z" hostname="chromium" tests="3" failures="0" skipped="1" time="19.161" errors="0">
-<testcase name="first test" classname="annotations.spec.ts" time="17.812">
-<properties>
-<property name="fail" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[first test running
-]]>
-</system-out>
-</testcase>
-<testcase name="second test" classname="annotations.spec.ts" time="1.182">
-<system-out>
-<![CDATA[second test running
-second test completed
-]]>
-</system-out>
-</testcase>
-<testcase name="third test" classname="annotations.spec.ts" time="0.167">
-<properties>
-<property name="skip" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.823735999999998">
+<testsuite name="clickhold.test.ts" timestamp="2024-10-25T12:16:55.806Z" hostname="chromium" tests="1" failures="0" skipped="0" time="11.381" errors="0">
+<testcase name="Click and hold" classname="clickhold.test.ts" time="11.381">
 </testcase>
 </testsuite>
 </testsuites>

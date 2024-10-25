@@ -1,24 +1,24 @@
-version: 2.1
-jobs:
-  run-test:
-    docker:
-      - image: mcr.microsoft.com/playwright:v1.27.1-focal
+version: 2.1 # Version of the configuration file
+jobs: # Jobs that run in the workflow
+  run-test: # Name of the job in CI
+    docker: # Use Docker to run the job
+      - image: mcr.microsoft.com/playwright:v1.27.1-focal # Use the Playwright Docker image
     # Steps to the job
-    steps:
-      - checkout
-      - run:
-          name: Download dependency
-          environment:
-            SECRET_KEY: SECRET_KEY 
-          command: npm ci
-      - run:
-          name: Run tests
-          command: npm run test
+    steps: 
+      - checkout # Checkout the repository to the CI environment because the repository is not checked out by default
+      - run: # Install dependencies from package-lock.json to CI environment  
+          name: Download dependency  # Name of the step in CircleCI
+          environment: # Environment variables for the step
+            SECRET_KEY: SECRET_KEY  
+          command: npm ci # Install dependencies from package-lock.json to CI environment
+      - run: # Install Playwright browsers with dependencies
+          name: Run tests # Name of the step in CircleCI
+          command: npm run test # Run Playwright tests
           
-      - store_test_results:
-          path: results.xml
+      - store_test_results: # Store the test results in the CI environment
+          path: results.xml # Path of the test results
 # Invoke jobs via workflows
-workflows:
-  run-test-workflow:
-    jobs:
-      - run-test
+workflows: 
+  run-test-workflow: # Name of the workflow
+    jobs: # Jobs that run in the workflow
+      - run-test # Run the run-test job in the workflow

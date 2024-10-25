@@ -102,7 +102,7 @@ test.describe("Search Git Repo", () => {
   });
 
   test.afterEach(async () => {
-    await page.screenshot({ path: Date.now() + "screenshot1.png" });
+    await page.screenshot({ path: "screenshot1.png" });
   });
   test.afterAll(async () => {
     await page.close();

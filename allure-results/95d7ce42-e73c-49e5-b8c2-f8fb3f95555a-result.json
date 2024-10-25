@@ -1,0 +1,37 @@
+{
+  "uuid": "95d7ce42-e73c-49e5-b8c2-f8fb3f95555a",
+  "historyId": "chromium annotations.spec.ts third test",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\annotations-third-test-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "153aa258-b3af-427a-a8eb-e5bfe473d8e4-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "634afbc2-b104-435c-a62b-73a08e33c5b5-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "annotations.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728038193474,
+  "name": "third test",
+  "fullName": "third test",
+  "stop": 1728038202729
+}

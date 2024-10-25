@@ -1,0 +1,32 @@
+{
+  "uuid": "0b9a107d-19eb-4703-971c-9ed26abce0a4",
+  "historyId": "chromium frame.test.ts New Frame API",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\frame-New-Frame-API-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "c65a19ac-8a19-4c36-ab44-8a02ea0bc0e7-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "frame.test.ts" }
+  ],
+  "links": [],
+  "start": 1728123566399,
+  "name": "New Frame API",
+  "fullName": "New Frame API",
+  "stop": 1728123574904
+}

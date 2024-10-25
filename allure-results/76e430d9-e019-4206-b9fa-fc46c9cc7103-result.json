@@ -1,0 +1,40 @@
+{
+  "uuid": "76e430d9-e019-4206-b9fa-fc46c9cc7103",
+  "historyId": "chromium fixtures\\fixturetest.spec.ts Wrong test Data",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Welcome\"\nReceived string:    \" Error: The email address is badly formatted. \"",
+    "trace": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Welcome\"\nReceived string:    \" Error: The email address is badly formatted. \"\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\fixtures\\fixturetest.spec.ts:34:50"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\fixtures-fixturetest-Wrong-test-Data-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\fixtures-fixturetest-Wrong-test-Data-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\fixtures-fixturetest-Wrong-test-Data-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "fixtures\\fixturetest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728029342726,
+  "name": "Wrong test Data",
+  "fullName": "Wrong test Data",
+  "stop": 1728029355821
+}

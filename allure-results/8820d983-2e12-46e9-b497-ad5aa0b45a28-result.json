@@ -1,0 +1,40 @@
+{
+  "uuid": "8820d983-2e12-46e9-b497-ad5aa0b45a28",
+  "historyId": "chromium amazon.spec.ts Strict - ELement Handle ",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 50000ms exceeded.",
+    "trace": "Test timeout of 50000ms exceeded."
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "amazon.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728061017660,
+  "name": "Strict - ELement Handle ",
+  "fullName": "Strict - ELement Handle ",
+  "stop": 1728061073317
+}

@@ -1,0 +1,35 @@
+{
+  "uuid": "6cd8ffe2-965f-4dd6-88bc-a68125709d5c",
+  "historyId": "chromium annotations.spec.ts first test",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Let Code with Koushik\"\nReceived: \"LetCode with Koushik\"",
+    "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Let Code with Koushik\"\nReceived: \"LetCode with Koushik\"\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\annotations.spec.ts:7:30"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\annotations-first-test-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "28d44d6e-b7c0-4ac1-b807-541bca4372ee-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "annotations.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728038961348,
+  "name": "first test",
+  "fullName": "first test",
+  "stop": 1728038972261
+}

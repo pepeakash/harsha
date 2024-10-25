@@ -1,0 +1,35 @@
+{
+  "uuid": "3d48437e-7fe8-44d1-8549-8a1a6ae1353e",
+  "historyId": "chromium frame.test.ts Inner frame",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 50000ms exceeded.",
+    "trace": "Test timeout of 50000ms exceeded."
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\frame-Inner-frame-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\frame-Inner-frame-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "frame.test.ts" }
+  ],
+  "links": [],
+  "start": 1728123678115,
+  "name": "Inner frame",
+  "fullName": "Inner frame",
+  "stop": 1728123739620
+}

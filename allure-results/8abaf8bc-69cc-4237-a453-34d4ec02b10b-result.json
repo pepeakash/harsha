@@ -1,0 +1,27 @@
+{
+  "uuid": "8abaf8bc-69cc-4237-a453-34d4ec02b10b",
+  "historyId": "chromium trackRequest.test.ts Track all Request",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "trackRequest.test.ts" }
+  ],
+  "links": [],
+  "start": 1728148235616,
+  "name": "Track all Request",
+  "fullName": "Track all Request",
+  "stop": 1728148248383
+}

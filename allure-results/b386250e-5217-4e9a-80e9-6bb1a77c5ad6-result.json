@@ -1,0 +1,40 @@
+{
+  "uuid": "b386250e-5217-4e9a-80e9-6bb1a77c5ad6",
+  "historyId": "chromium trackRequest.test.ts Track all Request",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 50000ms exceeded.",
+    "trace": "Test timeout of 50000ms exceeded."
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "trackRequest.test.ts" }
+  ],
+  "links": [],
+  "start": 1728147625038,
+  "name": "Track all Request",
+  "fullName": "Track all Request",
+  "stop": 1728147677848
+}

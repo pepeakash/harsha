@@ -1,0 +1,63 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "report": "npx playwright show-report",
+    "testjest": "jest",
+    "test": "npx playwright test",
+    "testEnvironment": "cross-env test_env=test npx playwright test --project=chromium",
+    "prodEnvironment": "cross-env test_env=prod npx playwright test --project=chromium",
+    "devEnvironment": "cross-env test_env=development npx playwright test --project=chromium",
+    "chromium": "npx playwright test --project=chromium",
+    "update-snapshots": "npx playwright test --update-snapshots",
+    "debug": "npx playwright test --project=chromium --debug",
+    "chrome": "npx playwright test --project=chrome -x",
+    "webTests": "npx playwright test --grep @Web",
+    "APITests": "npx playwright test --grep @API",
+    "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari",
+    "prettier": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+    "authStorage": "npx playwright codegen --save-storage=auth.json",
+    "authOpen": "npx playwright open --load-storage=auth.json instagram.com",
+    "envStaging": "cross-env ENVIRONMENT=staging npx playwright test"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+
+    "@playwright/test": "^1.45.2",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^20.14.11",
+    "@types/nodemailer": "^6.4.16",
+    "adm-zip": "^0.5.16",
+    "clipboardy": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "experimental-allure-playwright": "0.0.3",
+    "globals": "^15.9.0",
+    "jasmine": "5.3.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jest": "29.7.0",
+    "jest-allure": "^0.1.3",
+    "jest-playwright-preset": "4.0.0",
+    "lighthouse": "^9.3.1",
+    "nodemailer": "^6.9.15",
+    "playwright-lighthouse": "^2.2.2",
+    "prettier": "3.3.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "^5.6.2",
+    "winston": "^3.14.2",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "jasmine-allure-reporter": "^1.0.2"
+  }
+}

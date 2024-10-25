@@ -1,0 +1,40 @@
+{
+  "uuid": "eb79063b-92ec-47c2-8608-aa1343c6dc5f",
+  "historyId": "chromium trackRequest.test.ts Track all Request",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://bookcart.azurewebsites.net/\nCall log:\n  - navigating to \"https://bookcart.azurewebsites.net/\", waiting until \"domcontentloaded\"\n",
+    "trace": "Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://bookcart.azurewebsites.net/\nCall log:\n  - navigating to \"https://bookcart.azurewebsites.net/\", waiting until \"domcontentloaded\"\n\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\trackRequest.test.ts:10:16"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "trackRequest.test.ts" }
+  ],
+  "links": [],
+  "start": 1728148582140,
+  "name": "Track all Request",
+  "fullName": "Track all Request",
+  "stop": 1728148583585
+}

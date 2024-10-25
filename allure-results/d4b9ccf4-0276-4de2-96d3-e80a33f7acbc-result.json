@@ -1,0 +1,35 @@
+{
+  "uuid": "d4b9ccf4-0276-4de2-96d3-e80a33f7acbc",
+  "historyId": "chromium trackRequest.test.ts Track all Request",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://bookcart.azurewebsites.net/\", waiting until \"domcontentloaded\"\n",
+    "trace": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://bookcart.azurewebsites.net/\", waiting until \"domcontentloaded\"\n\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\trackRequest.test.ts:10:16"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\trackRequest-Track-all-Request-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "trackRequest.test.ts" }
+  ],
+  "links": [],
+  "start": 1728151620933,
+  "name": "Track all Request",
+  "fullName": "Track all Request",
+  "stop": 1728151635840
+}

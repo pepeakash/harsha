@@ -1,0 +1,42 @@
+{
+  "uuid": "9a396592-de78-486d-990a-4f5e02d15fff",
+  "historyId": "chromium amazon.spec.ts Strict - ELement Handle ",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "89999a90-8363-42d0-a9ec-334d2719beb9-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "d5f65d94-7616-4d58-87a4-1361bd433e53-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "f8674088-bad1-4c9f-8889-7664fd13e70c-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "amazon.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728065213638,
+  "name": "Strict - ELement Handle ",
+  "fullName": "Strict - ELement Handle ",
+  "stop": 1728065230044
+}

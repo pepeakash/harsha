@@ -1,0 +1,37 @@
+{
+  "uuid": "1932be8d-de81-4263-835e-c97ce70b92bc",
+  "historyId": "chromium annotations.spec.ts first test",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\annotations-first-test-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "46c9af97-3240-4b66-80e6-1455fa10ab4a-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "ac561680-8b9d-43b3-bb46-dca97cfab609-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "annotations.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728038175856,
+  "name": "first test",
+  "fullName": "first test",
+  "stop": 1728038189769
+}

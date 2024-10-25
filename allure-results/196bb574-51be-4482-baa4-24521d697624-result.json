@@ -1,0 +1,30 @@
+{
+  "uuid": "196bb574-51be-4482-baa4-24521d697624",
+  "historyId": "chromium reportDemo\\service-now.test.ts Create an Incident",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: apiRequestContext.post: getaddrinfo ENOTFOUND dev107189.service-now.com\nCall log:\n  - → POST https://dev107189.service-now.com/api/now/table/incident\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.29 Safari/537.36\n  -   accept: application/json\n  -   accept-encoding: gzip,deflate,br\n  -   Authorization: Basic YWRtaW46U0NxN2pDb2tDbFI4\n  -   content-type: application/json\n  -   content-length: 68\n",
+    "trace": "Error: apiRequestContext.post: getaddrinfo ENOTFOUND dev107189.service-now.com\nCall log:\n  - → POST https://dev107189.service-now.com/api/now/table/incident\n  -   user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.29 Safari/537.36\n  -   accept: application/json\n  -   accept-encoding: gzip,deflate,br\n  -   Authorization: Basic YWRtaW46U0NxN2pDb2tDbFI4\n  -   content-type: application/json\n  -   content-length: 68\n\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\reportDemo\\service-now.test.ts:9:37"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\reportDemo-service-now-Create-an-Incident-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "reportDemo\\service-now.test.ts" }
+  ],
+  "links": [],
+  "start": 1728113913650,
+  "name": "Create an Incident",
+  "fullName": "Create an Incident",
+  "stop": 1728113913920
+}

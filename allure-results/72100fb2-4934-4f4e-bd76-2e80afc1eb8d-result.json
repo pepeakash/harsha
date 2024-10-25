@@ -1,0 +1,40 @@
+{
+  "uuid": "72100fb2-4934-4f4e-bd76-2e80afc1eb8d",
+  "historyId": "chromium network\\mock-api-response.test.ts Mock API Response",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:4200/books/home\nCall log:\n  - navigating to \"http://localhost:4200/books/home\", waiting until \"load\"\n",
+    "trace": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:4200/books/home\nCall log:\n  - navigating to \"http://localhost:4200/books/home\", waiting until \"load\"\n\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\network\\mock-api-response.test.ts:11:16"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\network-mock-api-response-Mock-API-Response-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\network-mock-api-response-Mock-API-Response-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\network-mock-api-response-Mock-API-Response-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "network\\mock-api-response.test.ts" }
+  ],
+  "links": [],
+  "start": 1728190745428,
+  "name": "Mock API Response",
+  "fullName": "Mock API Response",
+  "stop": 1728190750603
+}

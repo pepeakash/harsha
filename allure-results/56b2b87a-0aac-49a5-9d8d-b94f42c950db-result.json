@@ -1,0 +1,41 @@
+{
+  "uuid": "56b2b87a-0aac-49a5-9d8d-b94f42c950db",
+  "historyId": "chromium pageObjectsTest\\TC001_Login.test.ts TC001 Login positive _ JIRA101",
+  "status": "failed",
+  "statusDetails": {
+    "message": "ReferenceError: reporter is not defined",
+    "trace": "ReferenceError: reporter is not defined\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\pageObjectsTest\\TC001_Login.test.ts:20:9"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\pageObjectsTest-TC001_Login-TC001-Login-positive-JIRA101-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\pageObjectsTest-TC001_Login-TC001-Login-positive-JIRA101-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\pageObjectsTest-TC001_Login-TC001-Login-positive-JIRA101-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "pageObjectsTest\\TC001_Login.test.ts" },
+    { "name": "subSuite", "value": "TC001" }
+  ],
+  "links": [],
+  "start": 1728030413308,
+  "name": "Login positive _ JIRA101",
+  "fullName": "Login positive _ JIRA101",
+  "stop": 1728030415546
+}

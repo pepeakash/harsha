@@ -1,0 +1,34 @@
+{
+  "uuid": "d04eb1a1-52ef-4b3d-b982-10e8697da433",
+  "historyId": "chromium amazon.spec.ts Strict - ELement Handle ",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: worker process exited unexpectedly (code=2147483651, signal=null)"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "stderr",
+      "type": "text/plain",
+      "source": "fe83f609-25cc-465d-b06d-15e65830bf67-attachment.txt"
+    },
+    {
+      "name": "stderr",
+      "type": "text/plain",
+      "source": "cb7ef9b5-3767-4220-8f11-de53222f2914-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "amazon.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728061150721,
+  "name": "Strict - ELement Handle ",
+  "fullName": "Strict - ELement Handle ",
+  "stop": 1728061150721
+}

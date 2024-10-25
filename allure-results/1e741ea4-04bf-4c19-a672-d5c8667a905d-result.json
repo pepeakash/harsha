@@ -1,0 +1,36 @@
+{
+  "uuid": "1e741ea4-04bf-4c19-a672-d5c8667a905d",
+  "historyId": "chromium search.test.ts Search Git Repo Print all the repos using .allinnertext",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TimeoutError: page.waitForSelector: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('app-gitrepos ol li') to be visible\n",
+    "trace": "TimeoutError: page.waitForSelector: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('app-gitrepos ol li') to be visible\n\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\search.test.ts:62:20"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\search-Search-Git-Repo-Pri-40847-he-repos-using-allinnertext-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\search-Search-Git-Repo-Pri-40847-he-repos-using-allinnertext-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "search.test.ts" },
+    { "name": "subSuite", "value": "Search Git Repo" }
+  ],
+  "links": [],
+  "start": 1728046655944,
+  "name": "Print all the repos using .allinnertext",
+  "fullName": "Print all the repos using .allinnertext",
+  "stop": 1728046661577
+}

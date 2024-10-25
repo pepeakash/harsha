@@ -1,0 +1,37 @@
+{
+  "uuid": "4afa8391-c09f-40c7-9566-20716ff43a97",
+  "historyId": "chromium youtube.spec.ts Calculate youtube playlist duration",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\youtube-Calculate-youtube-playlist-duration-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "986a90e7-d1d8-4312-93d4-b49b6f0f3560-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "02d3b9e5-06e7-469e-9300-f0f2114b0efd-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "youtube.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728034356027,
+  "name": "Calculate youtube playlist duration",
+  "fullName": "Calculate youtube playlist duration",
+  "stop": 1728034374837
+}

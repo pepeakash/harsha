@@ -1,0 +1,40 @@
+{
+  "uuid": "e724fc44-4d2f-4c7a-a67e-719fe8fffdbe",
+  "historyId": "chromium forms.test.ts test",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: url: expected string, got undefined",
+    "trace": "Error: page.goto: url: expected string, got undefined\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\forms.test.ts:9:14"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\forms-test-chromium\\test-failed-1.png"
+    },
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\forms-test-chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\forms-test-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "forms.test.ts" }
+  ],
+  "links": [],
+  "start": 1728191148998,
+  "name": "test",
+  "fullName": "test",
+  "stop": 1728191150844
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "bookId": 81,
+    "title": "This Storm",
+    "author": "James Ellroy",
+    "category": "Mystery",
+    "price": 2232.0,
+    "coverFileName": "d810fa08-0ed8-4dcb-8158-6f1ab98a45d3qq.jpg"
+  },
+  {
+    "bookId": 48,
+    "title": "11/22/63",
+    "author": "Stephen King",
+    "category": "Mystery",
+    "price": 556.0,
+    "coverFileName": "ab486162-5053-46ec-a89a-fdf2b686ff6310644930.jpg"
+  },
+  {
+    "bookId": 83,
+    "title": "One Night at the Lake",
+    "author": " Bethany Chase",
+    "category": "Mystery",
+    "price": 555.0,
+    "coverFileName": "fe476d1e-cdc3-404b-913e-a52889d5b9fcqq.jpg"
+  },
+  {
+    "bookId": 46,
+    "title": "Catching Fire",
+    "author": "Suzanne Collins",
+    "category": "Mystery",
+    "price": 658.0,
+    "coverFileName": "6df4a30a-e8a1-467d-9da6-d826989a9c606148028.jpg"
+  },
+  {
+    "bookId": 21,
+    "title": "Slayer",
+    "author": " Kiersten White",
+    "category": "Mystery",
+    "price": 1234.0,
+    "coverFileName": "6d91b7b0-b8d1-41ad-a0ef-65e2324fc1b3Slayer.jpg"
+  }
+]

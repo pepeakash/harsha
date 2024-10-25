@@ -1,0 +1,27 @@
+{
+  "uuid": "2cfc4e64-e376-4d97-bae7-0fae04189edb",
+  "historyId": "chromium fixtures\\fixturetest.spec.ts test 1",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\fixtures-fixturetest-test-1-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "fixtures\\fixturetest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728028728311,
+  "name": "test 1",
+  "fullName": "test 1",
+  "stop": 1728028755866
+}

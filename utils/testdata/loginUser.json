@@ -1,0 +1,9 @@
+{
+  "invalidUserName": "test koushik",
+  "invalidPassword": "Passwordqwdsasd",
+  "userName1": "koushik1@letcode.in",
+  "password1": "Pass123$",
+  "userName": "U2FsdGVkX18JAUHHBdPxzDONHWQbDL5b0+sNwYD19kk=",
+  "password": "U2FsdGVkX1+YnoOz4OlxvOKIM37GoW8i7vPCvlatwVo=",
+  "errorMsg": "Username or Password is incorrect."
+}

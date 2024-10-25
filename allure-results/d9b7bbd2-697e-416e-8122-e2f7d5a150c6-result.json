@@ -1,0 +1,53 @@
+{
+  "uuid": "d9b7bbd2-697e-416e-8122-e2f7d5a150c6",
+  "historyId": "chromium windows.spec.ts Learn how to handle Input fileds Multi page Handling",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\windows-Learn-how-to-handle-Input-fileds-Multi-page-Handling-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "fadd1471-e8fa-4bc2-9c2c-8cbdb4f6986f-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "24e2cd18-a3f9-451f-b17b-a9bee6e07f29-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "ab0de481-fa3b-4f77-9b58-805676a44a09-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "d68764c8-dc27-4428-b340-01d14b83d832-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "e4062832-c5ff-4e6b-8882-38acb9c58d2e-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "windows.spec.ts" },
+    { "name": "subSuite", "value": "Learn how to handle Input fileds" }
+  ],
+  "links": [],
+  "start": 1728151670285,
+  "name": "Multi page Handling",
+  "fullName": "Multi page Handling",
+  "stop": 1728151677332
+}

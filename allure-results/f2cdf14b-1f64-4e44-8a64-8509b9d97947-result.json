@@ -1,0 +1,32 @@
+{
+  "uuid": "f2cdf14b-1f64-4e44-8a64-8509b9d97947",
+  "historyId": "chromium download.test.ts Download file",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "downloaded",
+      "type": "text/plain",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\download-Download-file-chromium\\attachments\\downloaded-68a9c7feb77dff9e2e176624d8e62f5c5ed505b2.txt"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\download-Download-file-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "download.test.ts" }
+  ],
+  "links": [],
+  "start": 1728131050599,
+  "name": "Download file",
+  "fullName": "Download file",
+  "stop": 1728131063486
+}

@@ -1,0 +1,27 @@
+{
+  "uuid": "1128d8d4-8af7-4517-a1eb-6209702b1969",
+  "historyId": "chromium frame.test.ts Inner frame",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\frame-Inner-frame-chromium\\trace.zip"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "frame.test.ts" }
+  ],
+  "links": [],
+  "start": 1728123577164,
+  "name": "Inner frame",
+  "fullName": "Inner frame",
+  "stop": 1728123584483
+}

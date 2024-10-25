@@ -1,0 +1,40 @@
+{
+  "uuid": "ef71c7d2-c078-4233-9840-1fadba0fc8a6",
+  "historyId": "chromium amazon.spec.ts Strict - ELement Handle ",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c1398d184sm1578415ad.263 - gsmtp",
+    "trace": "Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c1398d184sm1578415ad.263 - gsmtp\n    at SMTPConnection._formatError (D:\\Jaykirti\\jaykirtiplaywright\\jay\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:807:19)\n    at SMTPConnection._actionAUTHComplete (D:\\Jaykirti\\jaykirtiplaywright\\jay\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1586:34)\n    at SMTPConnection.<anonymous> (D:\\Jaykirti\\jaykirtiplaywright\\jay\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:554:26)\n    at SMTPConnection._processResponse (D:\\Jaykirti\\jaykirtiplaywright\\jay\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:991:20)\n    at SMTPConnection._onData (D:\\Jaykirti\\jaykirtiplaywright\\jay\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:772:14)\n    at TLSSocket.SMTPConnection._onSocketData (D:\\Jaykirti\\jaykirtiplaywright\\jay\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot",
+      "type": "image/png",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\test-failed-1.png"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "2284af07-cc4f-415b-a00f-13577b5db84e-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "amazon.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728067204848,
+  "name": "Strict - ELement Handle ",
+  "fullName": "Strict - ELement Handle ",
+  "stop": 1728067219399
+}

@@ -1,0 +1,38 @@
+{
+  "uuid": "13149248-ff49-47b2-a53a-e8076804b0a0",
+  "historyId": "chromium search.test.ts Search Git Repo Print all the repos using .allinnertext",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\search-Search-Git-Repo-Pri-40847-he-repos-using-allinnertext-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "666fcf31-f67a-4528-b47b-8edf0d5c4242-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "1918cc03-11fd-4464-a748-3a402874434c-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "search.test.ts" },
+    { "name": "subSuite", "value": "Search Git Repo" }
+  ],
+  "links": [],
+  "start": 1728046911010,
+  "name": "Print all the repos using .allinnertext",
+  "fullName": "Print all the repos using .allinnertext",
+  "stop": 1728046913348
+}

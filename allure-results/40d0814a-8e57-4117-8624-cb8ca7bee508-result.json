@@ -1,0 +1,40 @@
+{
+  "uuid": "40d0814a-8e57-4117-8624-cb8ca7bee508",
+  "historyId": "chromium amazon.spec.ts Strict - ELement Handle ",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('.span[class=\\'a-price aok-align-center\\'] span[class=\\'a-price-whole\\']')\n",
+    "trace": "Error: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('.span[class=\\'a-price aok-align-center\\'] span[class=\\'a-price-whole\\']')\n\n    at D:\\Jaykirti\\jaykirtiplaywright\\jay\\tests\\amazon.spec.ts:11:103"
+  },
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "video",
+      "type": "video/webm",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\video.webm"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\amazon-Strict---ELement-Handle--chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "ae9103dd-79f7-4c71-afa5-987c90f4154e-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "amazon.spec.ts" }
+  ],
+  "links": [],
+  "start": 1728062237559,
+  "name": "Strict - ELement Handle ",
+  "fullName": "Strict - ELement Handle ",
+  "stop": 1728062285127
+}

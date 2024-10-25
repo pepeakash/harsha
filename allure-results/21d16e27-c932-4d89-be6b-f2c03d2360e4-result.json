@@ -1,0 +1,33 @@
+{
+  "uuid": "21d16e27-c932-4d89-be6b-f2c03d2360e4",
+  "historyId": "chromium customReport\\report.test.ts Custom Reporter Navigation test",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\customReport-report-Custom-Reporter-Navigation-test-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "7dff4c67-84c0-44d4-b03b-233be79c1aae-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "customReport\\report.test.ts" },
+    { "name": "subSuite", "value": "Custom Reporter" }
+  ],
+  "links": [],
+  "start": 1728109127226,
+  "name": "Navigation test",
+  "fullName": "Navigation test",
+  "stop": 1728109137699
+}

@@ -1,0 +1,53 @@
+{
+  "uuid": "b1c52f87-74d0-48a8-becf-22bfc71222d3",
+  "historyId": "chromium locatorAPI\\locatorIndetail.test.ts My awesome report suite Locator in detail",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "pending",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "login screenshot",
+      "type": "image/png",
+      "source": "9b02b42d-c3c7-4921-bfc1-a41461f17b5a-attachment.png"
+    },
+    {
+      "name": "login screenshot",
+      "type": "image/png",
+      "source": "38fe0bd2-389f-4674-a193-891970e8a605-attachment.png"
+    },
+    {
+      "name": "login screenshot",
+      "type": "image/png",
+      "source": "a6203f87-3562-4a17-b027-b49ff1724925-attachment.png"
+    },
+    {
+      "name": "trace",
+      "type": "application/zip",
+      "source": "D:\\Jaykirti\\jaykirtiplaywright\\jay\\test-results\\locatorAPI-locatorIndetail-2501e-ort-suite-Locator-in-detail-chromium\\trace.zip"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "a706e508-e6ff-4d40-8e3c-cac9482ef3c8-attachment.txt"
+    },
+    {
+      "name": "stdout",
+      "type": "text/plain",
+      "source": "8847d124-c0f0-4f8e-aab9-c470c7eb944c-attachment.txt"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "locatorAPI\\locatorIndetail.test.ts" },
+    { "name": "subSuite", "value": "My awesome report suite" }
+  ],
+  "links": [],
+  "start": 1728104717206,
+  "name": "Locator in detail",
+  "fullName": "Locator in detail",
+  "stop": 1728104722395
+}

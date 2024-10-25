@@ -1,0 +1,6 @@
+Promise {
+  [36m<pending>[39m,
+  [[32mSymbol(async_id_symbol)[39m]: [33m54437[39m,
+  [[32mSymbol(trigger_async_id_symbol)[39m]: [33m54406[39m,
+  [[32mSymbol(kResourceStore)[39m]: [90mundefined[39m
+}

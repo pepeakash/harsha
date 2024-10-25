@@ -1,27 +1,27 @@
-name: Playwright Tests
-on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-jobs:
-  test:
-    timeout-minutes: 60
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+name: Playwright Tests # Name of the workflow
+on: # Event that triggers the workflow
+  push: # Run the workflow on push
+    branches: [ main, master ] # Run the workflow on the main and master branches
+  pull_request: # Run the workflow on pull requests
+    branches: [ main, master ] # Run the workflow on the main and master branches
+jobs: # Jobs that run in the workflow
+  test: # Name of the job
+    timeout-minutes: 500 # Maximum time the job can run
+    runs-on: ubuntu-latest # Operating system for the job - For windows, use - windows-latest, and for macOS, use - macos-latest
+    steps: # Steps that run in the job
+    - uses: actions/checkout@v4 # Checkout the repository
+    - uses: actions/setup-node@v4 # Set up Node.js
+      with: # Set up Node.js with the following version
+        node-version: lts/* # Use the latest LTS version of Node.js
+    - name: Install dependencies # Name of the step in Github Actions 
+      run: npm ci # Install dependencies from package-lock.json to CI environment
+    - name: Install Playwright Browsers # Name of the step
+      run: npx playwright install --with-deps # Install Playwright browsers with dependencies
+    - name: Run Playwright tests # Name of the step
+      run: npx playwright test # Run Playwright tests
+    - uses: actions/upload-artifact@v4 # Upload the test report as an artifact, and below command # Upload the artifact only if the job is not cancelled
+      if: ${{ !cancelled() }} 
+      with: # Upload the artifact with the following details
+        name: playwright-report # Name of the artifact
+        path: playwright-report/ # Path of the artifact
+        retention-days: 365 # Retain the artifact for 30 days
